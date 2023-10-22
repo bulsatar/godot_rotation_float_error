@@ -1,0 +1,31 @@
+[gd_scene load_steps=4 format=3 uid="uid://7t7qiclt52vd"]
+
+[ext_resource type="Script" path="res://scripts/piece_O.gd" id="1_sy1g4"]
+[ext_resource type="Texture2D" uid="uid://d276e66w0ecu8" path="res://assets/block.png" id="2_sj52j"]
+[ext_resource type="Script" path="res://scripts/block.gd" id="3_glbkt"]
+
+[node name="piece_O" type="Node2D"]
+script = ExtResource("1_sy1g4")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_sj52j")
+centered = false
+script = ExtResource("3_glbkt")
+
+[node name="Sprite2D2" type="Sprite2D" parent="."]
+position = Vector2(-50, -50)
+texture = ExtResource("2_sj52j")
+centered = false
+script = ExtResource("3_glbkt")
+
+[node name="Sprite2D3" type="Sprite2D" parent="."]
+position = Vector2(-50, 0)
+texture = ExtResource("2_sj52j")
+centered = false
+script = ExtResource("3_glbkt")
+
+[node name="Sprite2D4" type="Sprite2D" parent="."]
+position = Vector2(0, -50)
+texture = ExtResource("2_sj52j")
+centered = false
+script = ExtResource("3_glbkt")

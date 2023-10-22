@@ -1,0 +1,24 @@
+[gd_scene load_steps=2 format=3 uid="uid://dkwgl7yev1ia"]
+
+[ext_resource type="Script" path="res://scripts/main.gd" id="1_2mvm6"]
+
+[node name="main" type="Node2D"]
+script = ExtResource("1_2mvm6")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+
+[node name="col1_label" type="Label" parent="Camera2D"]
+offset_left = -500.0
+offset_top = -300.0
+offset_right = -150.0
+offset_bottom = -175.0
+theme_override_font_sizes/font_size = 30
+text = "test text"
+
+[node name="col2_label" type="Label" parent="Camera2D"]
+offset_left = 125.0
+offset_top = -300.0
+offset_right = 475.0
+offset_bottom = -175.0
+theme_override_font_sizes/font_size = 30
+text = "test text"
